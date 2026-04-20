@@ -14,7 +14,7 @@ permalink: /novels/
   <div class="novel-grid">
     
     <div class="novel-cover">
-      <img src="{{ '/assets/images/novel-cover.jpg' | relative_url }}" alt="Novel cover">
+      <img src="{{ '/assets/images/novelcover.jpg' | relative_url }}" alt="Novel cover">
     </div>
 
     <div class="novel-info">
