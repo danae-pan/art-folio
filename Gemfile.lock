@@ -85,7 +85,9 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.4.1)
-  minima
+  jekyll-feed (~> 0.17.0)
+  jekyll-seo-tag (~> 2.8.0)
+  minima (~> 2.5.2)
 
 CHECKSUMS
   addressable (2.9.0)
