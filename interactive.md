@@ -34,7 +34,7 @@ permalink: /interactive/
   <section class="project-block">
     <div class="vr-project-grid">
       <div>
-        <img src="{{ '/assets/images/cover.png' | relative_url }}" alt="VR game cover or screenshot" class="project-video">
+        <img src="{{ '/assets/images/cover.jpg' | relative_url }}" alt="VR game cover or screenshot" class="project-video">
       </div>
 
       <div>
@@ -56,7 +56,7 @@ permalink: /interactive/
   <div class="project-grid">
     <div class="project-card">
   <!-- IMAGE -->
-  <img src="{{ '/assets/images/boatone.png' | relative_url }}" alt="Boat render">
+  <img src="{{ '/assets/images/boatone.jpg' | relative_url }}" alt="Boat render">
 
   <!-- VIDEO -->
   <video autoplay muted loop playsinline class="project-video">
@@ -71,31 +71,31 @@ permalink: /interactive/
 </div>
 
     <div class="project-card">
-      <img src="{{ '/assets/images/gun1.png' | relative_url }}" alt="VR asset 2 placeholder">
+      <img src="{{ '/assets/images/gun1.jpg' | relative_url }}" alt="VR asset 2 placeholder">
       <h3>3D Asset 02</h3>
       <p>First gun designed for the pirate-themed environment. The initial idea was for it to resemble something more on the cartoon side rather than a pirate and to throw coconuts.</p>
     </div>
 
     <div class="project-card">
-      <img src="{{ '/assets/images/gun2.png' | relative_url }}" alt="VR asset 3 placeholder">
+      <img src="{{ '/assets/images/gun2.jpg' | relative_url }}" alt="VR asset 3 placeholder">
       <h3>3D Asset 03</h3>
       <p>Low-poly stylized firearm prop. Designed for the character to hold two at once.</p>
     </div>
 
     <div class="project-card">
-      <img src="{{ '/assets/images/woods.png' | relative_url }}" alt="VR asset 4 placeholder">
+      <img src="{{ '/assets/images/woods.jpg' | relative_url }}" alt="VR asset 4 placeholder">
       <h3>3D Asset 04</h3>
       <p>Set of stylized wooden planks with a burned look to resemble the pieces of the boat after exploding.</p>
     </div>
 
     <div class="project-card">
-      <img src="{{ '/assets/images/woodburn.png' | relative_url }}" alt="VR asset 5 placeholder">
+      <img src="{{ '/assets/images/woodburn.jpg' | relative_url }}" alt="VR asset 5 placeholder">
       <h3>3D Asset 05</h3>
       <p>Burned wood texture created in Photoshop.</p>
     </div>
 
     <div class="project-card">
-      <img src="{{ '/assets/images/handstexture8.png' | relative_url }}" alt="VR asset 6 placeholder">
+      <img src="{{ '/assets/images/handstexture8.jpg' | relative_url }}" alt="VR asset 6 placeholder">
       <h3>3D Asset 06</h3>
       <p>Hand-painted skin texture created in Photoshop.</p>
     </div>
@@ -109,7 +109,7 @@ permalink: /interactive/
 
   <div class="project-grid">
     <div class="project-card">
-      <img src="{{ '/assets/images/noisemoon.png' | relative_url }}" alt="Procedural terrain">
+      <img src="{{ '/assets/images/noisemoon.jpg' | relative_url }}" alt="Procedural terrain">
       <h3>Procedural Terrain Study</h3>
       <p>
         A terrain generated using noise-based displacement techniques. Resembles the texture of a moon.
