@@ -1,0 +1,12 @@
+title: Rose's Art Diary
+description: Soft pastel anime-inspired portfolio
+baseurl: ""
+url: ""
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
