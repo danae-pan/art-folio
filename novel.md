@@ -46,7 +46,9 @@ permalink: /novels/
   <div class="character-grid">
 
     <div class="character-card">
-      <img src="{{ '/assets/images/isamu-sheet.jpg' | relative_url }}" alt="Isamu character sheet">
+      <a href="{{ '/assets/images/isamu-sheet.jpg' | relative_url }}" target="_blank">
+  <img src="{{ '/assets/images/isamu-sheet.jpg' | relative_url }}">
+</a>
 
       <div class="character-info">
         <h3>Hokoyumi Isamu</h3>
@@ -67,7 +69,9 @@ permalink: /novels/
     </div>
 
     <div class="character-card">
-      <img src="{{ '/assets/images/makoto-sheet.jpg' | relative_url }}" alt="Makoto character sheet">
+      <a href="{{ '/assets/images/makoto-sheet.jpg' | relative_url }}" target="_blank">
+  <img src="{{ '/assets/images/makoto-sheet.jpg' | relative_url }}">
+</a>
 
       <div class="character-info">
         <h3>Hoshino Makoto</h3>
