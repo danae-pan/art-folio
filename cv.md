@@ -29,13 +29,19 @@ permalink: /cv/
     </p>
   </div>
 
-  <div class="cv-item">
-    <h3>Aristotle University of Thessaloniki (AUTh)</h3>
-    <p class="cv-meta">Integrated Master’s in Electrical & Computer Engineering · 2017 – 2022</p>
-    <p>
-      Specialization in Telecommunications, acoustics, and signal processing.
-    </p>
-  </div>
+<div class="cv-item">
+  <h3>Aristotle University of Thessaloniki — Electrical & Computer Engineering</h3>
+  <p class="cv-meta">2017 – 2022</p>
+
+  <ul class="cv-list">
+    <li>Specialization in telecommunications, acoustics, and signal processing</li>
+    <li>Film project: contributed to filming, editing, and montage using Adobe Premiere Pro and After Effects</li>
+  </ul>
+
+  <a href="https://youtu.be/HsGaCFn-gw0" target="_blank">
+    ▶ Watch project
+  </a>
+</div>
 </section>
 
 <section class="cv-panel">
@@ -65,6 +71,8 @@ permalink: /cv/
       Supported live sound preparation and technical setup for performances and events.
     </p>
   </div>
+
+</section>
 
 <section class="cv-panel">
   <h2>Creative & Technical Interests</h2>
