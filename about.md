@@ -38,6 +38,15 @@ permalink: /about/
   </div>
 </section>
 
+<section class="intro-card" style="text-align:center;">
+  <h2>Resume ♡</h2>
+  <p>You can view my CV here.</p>
+
+  <a href="{{ '/cv/' | relative_url }}" class="button">
+    📄 View CV
+  </a>
+</section>
+
 <section class="contact-section">
   <h2>Contact me ♡</h2>
   <p>If you’d like to work together or just say hi, feel free to email me! Comissions are always open.</p>
