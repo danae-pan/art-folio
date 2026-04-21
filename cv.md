@@ -11,7 +11,7 @@ permalink: /cv/
 </section>
 
 <section class="cv-panel">
-  <h2>Profile ✦</h2>
+  <h2>Profile</h2>
   <p>
     MSc student in Computer Graphics at the Technical University of Denmark (DTU), with a background in software engineering, security, and system design.
     Currently transitioning toward game art, UI design, and interactive visual storytelling, with a strong interest in character design and 2D game assets.
@@ -19,7 +19,7 @@ permalink: /cv/
 </section>
 
 <section class="cv-panel">
-  <h2>Education ♡</h2>
+  <h2>Education</h2>
 
   <div class="cv-item">
     <h3>Technical University of Denmark (DTU)</h3>
@@ -39,7 +39,7 @@ permalink: /cv/
 </section>
 
 <section class="cv-panel">
-  <h2>Experience ✿</h2>
+  <h2>Experience</h2>
 
   <div class="cv-item">
     <h3>Penetration Tester</h3>
@@ -67,7 +67,7 @@ permalink: /cv/
   </div>
 
 <section class="cv-panel">
-  <h2>Creative & Technical Interests ✦</h2>
+  <h2>Creative & Technical Interests</h2>
   <ul class="cv-list">
     <li>Character design</li>
     <li>Game-inspired UI and UX</li>
@@ -79,7 +79,7 @@ permalink: /cv/
 </section>
 
 <section class="cv-panel">
-  <h2>Selected Certifications ♡</h2>
+  <h2>Selected Certifications</h2>
   <ul class="cv-list">
     <li>Microsoft Certified: Azure Fundamentals</li>
     <li>Microsoft Certified: Security, Compliance, and Identity Fundamentals</li>
@@ -87,7 +87,7 @@ permalink: /cv/
 </section>
 
 <section class="cv-panel">
-  <h2>Links ✿</h2>
+  <h2>Links</h2>
   <p>
     <strong>Portfolio:</strong> <a href="{{ '/' | relative_url }}">Rose's Art Diary</a><br>
     <strong>GitHub:</strong> <a href="https://github.com/danae-pan" target="_blank">danae-pan</a><br>
