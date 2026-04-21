@@ -48,7 +48,7 @@ permalink: /cv/
   <h2>Experience</h2>
 
   <div class="cv-item">
-    <h3>Penetration Tester</h3>
+    <h3>NVISO - Penetration Tester</h3>
     <p class="cv-meta">Current role</p>
     <p>
       Working with security assessments, system analysis, and consulting towards security best practices.
