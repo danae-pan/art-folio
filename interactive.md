@@ -4,6 +4,22 @@ title: 3D & Interactive
 permalink: /interactive/
 ---
 
+<!-- 🌙 VISUAL NOVEL UI -->
+<section class="project-block">
+  <h2>Kage kara no Taitō: The Distance Between Us</h2>
+
+  <p class="project-description">
+    A visual novel UI concept for a route-based character screen. The design explores hover states for character navigation, route progress and main menu.
+  </p>
+
+  <div class="figma-embed">
+<iframe
+  src="https://embed.figma.com/proto/nyR2sg3zWmtKczz3liA69b/Untitled?node-id=23-98&p=f&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=23%3A98&embed-host=share"
+  allowfullscreen>
+</iframe>
+  </div>
+</section>
+
 <section class="section-heading">
   <p class="eyebrow">3D & Interactive</p>
   <h1>Worlds, systems, and experiments</h1>
