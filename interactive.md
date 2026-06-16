@@ -4,20 +4,62 @@ title: 3D & Interactive
 permalink: /interactive/
 ---
 
+<!-- 🌙 DIALOGUE UI -->
+<section class="project-block">
+  <h2>Visual Novel Dialogue UI Concept</h2>
+
+  
+  <p class="project-description">
+  A dialogue UI concept created for a visual novel project. Inspired by Ancient Greek mosaics, ornamental motifs, and classical architecture, I wanted to explore how dialogue, character sprites, and interface elements could be arranged while keeping the screen clean, readable, and visually appealing. The design includes a large dialogue box, a character name plate, and a dedicated area for character sprites that would change throughout the story.
+  </p>
+
+  <p class="project-description">
+    This mockup focuses on visual design and user interaction rather than gameplay functionality. The decorative ornaments and interface assets were designed by me, while the character sprite area currently uses a placeholder to demonstrate proportions and layout.
+  </p>
+
+  <p class="project-description">
+    The dialogue system includes three text box variations. The first displays the protagonist's name and sprite, the second is used for other speaking characters and removes the protagonist sprite, and the third is a narrative box intended for internal thoughts and narration without a name plate.
+  </p>
+
+  <p class="project-description">
+    The prototype explores subtle UI animations and feedback. Dialogue boxes appear with a motion effect, while a decorative emblem acts as a visual pointer and gently blinks during hover interactions. Hovering over a dialogue option also changes the colour of the text box and inverts the text colour to improve contrast and accessibility. Selecting an option causes the dialogue boxes to disappear before the next dialogue screen appears, simulating the flow of a visual novel conversation.
+  </p>
+
+  <div class="figma-embed">
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/ZyDWLMHNXHyhDXMgHI99EM/Dialogue-Mockup?node-id=27-2822&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=27%3A2822&embed-host=share" allowfullscreen></iframe>
+  </div>
+</section>
+
+
 <!-- 🌙 VISUAL NOVEL UI -->
 <section class="project-block">
   <h2>Kage kara no Taitō: The Distance Between Us</h2>
 
   <p class="project-description">
-    A visual novel UI concept for a route-based character screen. The design explores hover states for character navigation, route progress and main menu.
+  This visual novel UI concept is inspired by a novel I am currently writing (see the <a href="{{ '/novels/' | relative_url }}">Novels</a> section). The visual style draws inspiration from fantasy role-playing games and open-world adventures, while incorporating darker tones that reflect the conflicts, hardships, and emotional themes explored throughout the story. The project explores hover states, character navigation, route progression, and menu elements within an otome game interface.
+</p>
+
+  <p class="project-description">
+  The concept is designed around a character profile screen where players can browse through different love interests and learn more about them. The route progress element indicates how far the player has progressed in a character's story, while the main menu button provides a way to return to the game's main navigation.
   </p>
 
+  <p class="project-description">
+    The current prototype focuses on hover interactions. The left and right arrows allow users to switch between character profiles, while the various UI elements respond to hovering to demonstrate visual feedback and interaction states.
+  </p>
+
+  <p class="project-description">
+    The decorative emblems used throughout the interface, as well as the character and background artwork, were designed and illustrated by me in Procreate.
+  </p>
+  
+
   <div class="figma-embed">
-<iframe
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" 
   src="https://embed.figma.com/proto/nyR2sg3zWmtKczz3liA69b/Untitled?node-id=23-98&p=f&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=23%3A98&embed-host=share"
   allowfullscreen>
 </iframe>
   </div>
+
+
 </section>
 
 <section class="section-heading">

@@ -91,6 +91,7 @@ permalink: /cv/
   <ul class="cv-list">
     <li>Microsoft Certified: Azure Fundamentals</li>
     <li>Microsoft Certified: Security, Compliance, and Identity Fundamentals</li>
+    <li>National and Kapodistrian University of Athens - Montage: Digital Image Processing with Adobe Premiere</li>
   </ul>
 </section>
 
