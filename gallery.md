@@ -12,8 +12,18 @@ permalink: /gallery/
 
 <div class="gallery-grid">
   <figure class="art-card">
+    <img src="{{ '/assets/images/ladyann.jpg' | relative_url }}" alt="Artwork 1">
+    <figcaption>Persona 5: Ann Takamaki</figcaption>
+  </figure>
+
+  <figure class="art-card">
+    <img src="{{ '/assets/images/Makoto.jpg' | relative_url }}" alt="Artwork 1">
+    <figcaption>From my novel (see the <a href="{{ '/novels/' | relative_url }}">Novels</a> section) Kage Kara no Taito: The Distance Between Us: Makoto</figcaption>
+  </figure>
+
+  <figure class="art-card">
     <img src="{{ '/assets/images/art10.jpg' | relative_url }}" alt="Artwork 1">
-    <figcaption>Moriarty the Patriot</figcaption>
+    <figcaption>Moriarty the Patriot: Moriarty</figcaption>
   </figure>
 
   <figure class="art-card">
