@@ -311,7 +311,7 @@ a:hover {
   font-weight: 700;
 }
 
-/* interactive/project page */
+/* games/project page */
 .project-block {
   margin-bottom: 2rem;
   padding: 1.5rem;
@@ -344,6 +344,7 @@ a:hover {
 
 .project-section {
   margin-top: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .project-grid {

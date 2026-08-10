@@ -49,14 +49,14 @@ permalink: /cv/
 
   <div class="cv-item">
     <h3>NVISO - Penetration Tester</h3>
-    <p class="cv-meta">Current role</p>
+    <p class="cv-meta">Thessaloniki · September 2025 – August 2026</p>
     <p>
       Working with security assessments, system analysis, and consulting towards security best practices.
     </p>
   </div>
 
   <div class="cv-item">
-    <h3>The LEGO Group — Student Worker</h3>
+    <h3>The LEGO Group — Marketing Assistant & Developer</h3>
     <p class="cv-meta">Copenhagen · Aug 2023 – Mar 2025</p>
     <p>
       Contributed to developer platform initiatives, internal tooling, and technical solutions while collaborating across teams.
