@@ -1,13 +1,35 @@
 ---
 layout: default
-title: Novels
-permalink: /novels/
+title: Creating Writing
+permalink: /writing/
 ---
 
 <section class="section-heading">
   <p class="eyebrow">Writing</p>
   <h1>Stories & Concepts</h1>
-  <p>My ongoing writing projects and their narrative and visual development.</p>
+  <p>Original stories, narrative projects, and visual development.</p>
+</section>
+
+<section class="novel-card">
+  <div class="novel-grid">
+
+    <div class="novel-cover">
+      <img src="{{ '/assets/images/manga_cover.png' | relative_url }}" alt="Original one-shot manga preview">
+    </div>
+
+    <div class="novel-info">
+      <h2>Original One-Shot Manga</h2>
+
+      <p class="novel-synopsis">
+        An original short manga currently in development for an upcoming contest.
+      </p>
+
+      <p class="character-role">
+        Currently in progress · Story & Art
+      </p>
+    </div>
+
+  </div>
 </section>
 
 <section class="novel-card">

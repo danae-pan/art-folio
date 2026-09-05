@@ -3,6 +3,11 @@ layout: home
 title: Home
 ---
 
-Hi, I’m an artist/designer.
+<p>
+  Hi, I’m an artist focused on visual storytelling and 2D art.
+</p>
 
-[See my work](/gallery/)
+<p>
+  Currently working on my first original one-shot manga.
+  <a href="{{ '/writing/' | relative_url }}">See what I’m working on →</a>
+</p>

@@ -437,6 +437,7 @@ a:hover {
   background: rgba(255, 255, 255, 0.9);
   border: 2px solid var(--line);
   box-shadow: var(--shadow);
+  margin-bottom: 60px;
 }
 
 .novel-grid {
@@ -574,6 +575,46 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
+.cv-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cv-heading-main {
+  min-width: 0;
+}
+
+.cv-heading-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.3rem;
+
+  font-size: 0.9rem;
+}
+
+.cv-heading-links a {
+  color: var(--heading);
+  text-decoration: none;
+}
+
+.cv-heading-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .cv-heading {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cv-heading-links {
+    align-items: flex-start;
+  }
+}
+
 .cv-panel h2 {
   margin-top: 0;
   color: var(--heading);
@@ -630,6 +671,171 @@ a:hover {
   flex-shrink: 0;
 }
 
+/* ------------------------------
+   CV Two-Column Layout
+------------------------------ */
+
+.cv-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(260px, 0.85fr);
+  gap: 1.8rem;
+  align-items: start;
+}
+
+.cv-main {
+  min-width: 0;
+}
+
+.cv-sidebar {
+  min-width: 0;
+
+  background: rgba(248, 239, 248, 0.85);
+  border: 2px solid var(--line);
+  box-shadow: var(--shadow);
+  border-radius: 28px;
+
+  padding: 1.5rem;
+}
+
+
+/* ------------------------------
+   Sidebar Sections
+------------------------------ */
+
+.cv-side-section + .cv-side-section {
+  margin-top: 1.6rem;
+  padding-top: 1.3rem;
+  border-top: 1px solid var(--line);
+}
+
+.cv-side-section h2 {
+  margin: 0 0 1rem;
+  color: var(--heading);
+}
+
+.cv-side-section h3 {
+  margin: 1rem 0 0.35rem;
+  color: var(--heading);
+  font-size: 0.9rem;
+}
+
+.cv-side-section p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+
+/* ------------------------------
+   CV Item Header
+------------------------------ */
+
+.cv-item-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.cv-item-heading h3 {
+  margin: 0;
+}
+
+.cv-date {
+  flex-shrink: 0;
+  opacity: 0.7;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+
+/* ------------------------------
+   Project Badges
+------------------------------ */
+
+.cv-badge {
+  flex-shrink: 0;
+
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+
+  background: rgba(232, 198, 209, 0.3);
+  border: 1px solid var(--line);
+
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+
+/* ------------------------------
+   Creative Skill Tags
+------------------------------ */
+
+.cv-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.cv-tags span {
+  padding: 0.3rem 0.55rem;
+
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+
+  font-size: 0.78rem;
+}
+
+
+/* ------------------------------
+   Education in Sidebar
+------------------------------ */
+
+.cv-side-item + .cv-side-item {
+  margin-top: 1rem;
+}
+
+.cv-side-item h3 {
+  margin: 0 0 0.2rem;
+}
+
+.cv-side-item p {
+  margin: 0;
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+.cv-side-item span {
+  opacity: 0.65;
+  font-size: 0.82rem;
+}
+
+
+/* ------------------------------
+   Responsive
+------------------------------ */
+
+@media (max-width: 850px) {
+  .cv-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-item-heading {
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .cv-sidebar {
+    margin-top: 0;
+  }
+
+  .cv-date,
+  .cv-badge {
+    flex-shrink: 1;
+  }
+
+}
+
 @media (max-width: 700px) {
   .resume-card-inner {
     flex-direction: column;
@@ -637,15 +843,143 @@ a:hover {
   }
 }
 @media print {
-  .site-header,
-  .site-footer {
+
+  @page {
+    size: A4;
+    margin: 8mm;
+  }
+
+  body {
+    background: white !important;
+    font-size: 8pt;
+    line-height: 1.2;
+  }
+
+  
+  .cv-heading {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+
+  .cv-heading-links {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    gap: 1mm !important;
+    font-size: 7pt !important;
+  }
+
+  .cv-heading-links a {
+    color: var(--heading) !important;
+    text-decoration: none !important;
+  }
+
+  .cv-links {
     display: none !important;
   }
 
-  .page-shell {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
+
+  .section-heading,
+  .cv-panel,
+  .cv-sidebar {
+    box-shadow: none !important;
   }
+
+  .section-heading {
+    padding: 0.6rem 0.8rem !important;
+    margin-bottom: 0.6rem !important;
+    border-radius: 12px !important;
+  }
+
+  .section-heading h1 {
+    font-size: 16pt !important;
+    margin: 0.2rem 0 !important;
+  }
+
+  .section-heading p {
+    margin: 0.15rem 0 !important;
+  }
+
+  .cv-panel {
+    padding: 0.75rem !important;
+    margin-bottom: 0.65rem !important;
+    border-radius: 12px !important;
+  }
+
+  .cv-panel h2,
+  .cv-side-section h2 {
+    font-size: 10pt !important;
+    margin-bottom: 0.4rem !important;
+  }
+
+  .cv-panel p,
+  .cv-side-section p,
+  .cv-list,
+  .cv-meta {
+    font-size: 7.5pt !important;
+  }
+
+  .cv-item + .cv-item {
+    margin-top: 0.7rem !important;
+    padding-top: 0.6rem !important;
+  }
+
+  .cv-item h3,
+  .cv-side-item h3 {
+    font-size: 8.5pt !important;
+  }
+
+  .cv-layout {
+    grid-template-columns: 2fr 0.85fr !important;
+    gap: 0.8rem !important;
+  }
+
+  .cv-sidebar {
+    padding: 0.75rem !important;
+    border-radius: 12px !important;
+  }
+
+  .cv-side-section + .cv-side-section {
+    margin-top: 0.8rem !important;
+    padding-top: 0.6rem !important;
+  }
+
+  .cv-tags {
+    gap: 0.2rem !important;
+  }
+
+  .cv-tags span {
+    font-size: 6.8pt !important;
+    padding: 0.15rem 0.3rem !important;
+  }
+
+  .cv-list {
+    padding-left: 1rem !important;
+  }
+
+  .cv-list li + li {
+    margin-top: 0.2rem !important;
+  }
+
+  /* Hide site navigation/footer when exporting */
+  header,
+  nav,
+  footer {
+    display: none !important;
+  }
+
+  /* Avoid splitting items where possible */
+  .cv-item,
+  .cv-side-section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .cv-links {
+  display: none !important;
+}
 }
 
 .figma-embed {
