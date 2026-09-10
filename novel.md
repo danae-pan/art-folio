@@ -9,7 +9,7 @@ permalink: /writing/
   <h1>Stories & Concepts</h1>
   <p>Original stories, narrative projects, and visual development.</p>
 </section>
-
+<!-- 
 <section class="novel-card">
   <div class="novel-grid">
 
@@ -30,7 +30,7 @@ permalink: /writing/
     </div>
 
   </div>
-</section>
+</section> -->
 
 <section class="novel-card">
   <div class="novel-grid">
